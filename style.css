@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 200, 47);
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+    background-color: rgb(26, 26, 26);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.1em 0.1em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:#ffffff;
+    background-color: black;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+button:hover {
+    border-color: rgba(255,255,255,1);
+}
+
+
+/* Class */
+
+.done {
+    text-decoration: line-through;
+}
+
+.checked {
+    margin-right: 1em;
+}
+
+.remove {
+    margin-left: 2em;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.app p {
+    text-align: center;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+/* Date and Time */
+
+.dateNtime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20vh;
+}
